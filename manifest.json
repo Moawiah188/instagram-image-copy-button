@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Instagram Image Copy Button",
+  "version": "2.7",
+  "description": "Adds a button above Instagram post images to copy the image to the clipboard.",
+  "author": "Moawiah188",
+  "permissions": ["clipboardWrite", "activeTab"],
+  "icons": {
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.instagram.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
