@@ -2,9 +2,10 @@
 
 A lightweight Chrome extension that adds a **Copy Image** button over Instagram post images, so you can copy a picture straight to your clipboard instead of screenshotting it.
 
-<!-- SCREENSHOT: replace the line below with a real screenshot or GIF of the button on an Instagram post.
-     Save the image into a docs/ folder and reference it, e.g. ![screenshot](docs/screenshot.png) -->
-> _Screenshot coming soon._
+<p align="center">
+  <img src="docs/button.jpg" alt="Copy Image button shown on an Instagram post" width="460"><br>
+  <em>Hover any Instagram post and a <strong>Copy Image</strong> button appears.</em>
+</p>
 
 ## Features
 
@@ -12,6 +13,18 @@ A lightweight Chrome extension that adds a **Copy Image** button over Instagram 
 - Copies the full-resolution image to your clipboard as a PNG (one click, no download).
 - Shows a brief "Image copied to clipboard!" confirmation.
 - Runs only on `instagram.com`. No tracking, no external servers, no data collection.
+
+## Demo
+
+<p align="center">
+  <img src="docs/copied.png" alt="Image copied to clipboard confirmation" width="460"><br>
+  <em>Click it and the full-resolution image is copied, with a quick confirmation.</em>
+</p>
+
+<p align="center">
+  <img src="docs/usage-discord.png" alt="Pasting the copied image into Discord at full resolution" width="380"><br>
+  <em>Paste it anywhere — here, straight into Discord at full resolution.</em>
+</p>
 
 ## Installation (load unpacked)
 
